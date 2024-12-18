@@ -44,9 +44,9 @@ const items = [
 export function AppSidebar() {
   return (
     <Sidebar variant="floating" collapsible="icon">
-      <SidebarContent>
+      <SidebarContent className="bg-teal-600 rounded-md text-white">
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-white">Next App</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
